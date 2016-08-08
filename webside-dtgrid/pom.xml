@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.webside</groupId>
-	<artifactId>webside-dtgrid</artifactId>
+	<artifactId>platform-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>webside-dtgrid</name>
+	<name>platform-web</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<jstl.version>1.2</jstl.version>
@@ -45,17 +45,17 @@
 	</properties>
 
 	<!-- 项目发布到私服 -->
-	<distributionManagement>
+	<!--<distributionManagement>-->
 		<!-- 两个ID必须与 setting.xml中的<server><id>nexus-releases</id></server>保持一致 -->
-		<repository>
-			<id>releases</id>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+	<!--	<repository>-->
+	<!--		<id>releases</id>-->
+	<!--		<url>http://localhost:8081/nexus/content/repositories/releases</url>-->
+	<!--	</repository>-->
+	<!--	<snapshotRepository>-->
+	<!--		<id>snapshots</id>-->
+	<!--		<url>http://localhost:8081/nexus/content/repositories/snapshots</url>-->
+	<!--	</snapshotRepository>-->
+	<!--</distributionManagement>-->
 
 
 	<dependencies>
